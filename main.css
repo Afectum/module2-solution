@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 1.75em;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align:center;
+}
+p {
+  font-family: Arial;
+  color: white;
+  margin:35px 10px 5px 10px;
+}
+.bblock {
+  border: 2px solid black;
+  background-color: #A52A2A;
+  width: 90%;
+  margin: 10px 20px 25px 20px;
+}
+
+.sblock{
+  border: 2px solid black;
+  padding: 2px;
+  text-align: center;
+  font-size: 1.25em;
+  background-color: yellow;
+  width: 30%;
+  height: 25px;
+  float: right;
+  margin: -2px -2px 0 0;
+  font-family: Helvetica;
+  color: black;
+}
+
+.block {
+  width: 100%;
+}
+
+/* dt = destktop */
+@media (min-width: 992px) {
+  .dtp  {
+    width: 33.33%;
+    float: left;
+ }
+
+}
+
+/*tb = tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .tab {
+    width: 50%;
+    float: left;
+  }
+  .lasttab {
+    width: 190%;
+
+  }
+}
